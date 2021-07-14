@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://<URL>:26257/bank?sslmode=verify-full&sslrootcert=<ROOT_CERT_PATH>&options=--cluster%3D<DATABASE_CLUSTER>
+    username: <YOUR_USERNAME>    
+    password: <YOUR_PASSWORD>
+    driverClassName: org.postgresql.Driver
