@@ -1,5 +1,5 @@
 # demo-cockroachCloud-java
-Demo code for cockroach cloud DB - Java version
+Demo code for cockroach cloud DB - Java version using Spring Boot
 
 Test java (JDBC) with CockroachDB.
 
